@@ -8,4 +8,4 @@
 
 ## Deploy
 
-run `./scripts/build.sh deploy`
+envchain aws run `./scripts/build.sh deploy`
