@@ -9,7 +9,8 @@ body {
   font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
 }
 body.summer-2018 {
-  background: #001348;
+  background: #D0D0CD;
+  color: #333;
 }
 h2 {
   font-size: 1.3rem;
