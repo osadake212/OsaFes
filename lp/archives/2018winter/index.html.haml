@@ -12,7 +12,7 @@
 
     %link{ rel: "stylesheet", href: "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css", integrity: "sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm", crossorigin: "anonymous" }
     %link{ rel: "stylesheet", href: "../../css/application.css" }
-  %body
+  %body.winter-2018
     %img{ src: "../../img/2018winter.jpg", width: "100%" }
     .container
       %h2 Information
@@ -69,3 +69,5 @@
         frameborder: "0",
         style: "border:0",
         allowfullscreen: true }
+
+      = Haml::Engine.new(File.read('lp/partials/footer.html.haml')).render
