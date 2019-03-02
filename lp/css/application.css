@@ -4,13 +4,19 @@ html {
 body {
   height: 100%;
   margin: 0;
+  font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
+}
+body {
   background: #0A0501;
   color: #FFFDF6;
-  font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
 }
 body.summer-2018 {
   background: #D0D0CD;
   color: #333;
+}
+body.winter-2018 {
+  background: #0A0501;
+  color: #FFFDF6;
 }
 h2 {
   font-size: 1.3rem;
