@@ -1,0 +1,71 @@
+!!!
+%html
+  %head
+    %title OSAFES - おさフェス
+
+    %meta{ "http-equiv": "Content-Type", content: "text/html; charset=utf-8" }
+    %meta{ name: "viewport", content: "width=device-width, initial-scale=1, shrink-to-fit=no" }
+
+    %meta{ property: "og:title", content: "OSAFES" }
+    %meta{ property: "og:type", content: "website" }
+    %meta{ property: "og:image", content: "https://osafes.tokyo/img/2019spring.jpg" }
+    %meta{ property: "og:url", content: "https://osafes.tokyo" }
+
+    %link{ rel: "stylesheet", href: "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css", integrity: "sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm", crossorigin: "anonymous" }
+    %link{ rel: "stylesheet", href: "../../css/application.css" }
+  %body.spring-2019
+    %img{ src: "../../img/2019spring.jpg", width: "100%" }
+    .container
+      %h2.font-weight-bold Information
+      %table.table.table-hover
+        %tbody
+          %tr
+            %th DATE
+            %td 2019/04/13 Sat.
+          %tr
+            %th OPEN / START
+            %td 11:45 / 12:00
+          %tr
+            %th ADV / DOOR
+            %td
+              %div
+                %div ¥1,000
+                %div （ドリンクチャージ込）
+
+      %h2.mt-4.font-weight-bold Timetable
+      .row
+        .col-3 12:00
+        .col-9 音量上げろタコ！
+      .row
+        .col-3 12:40
+        .col-9 立ちバックストリートボーイズ
+      .row
+        .col-3 13:20
+        .col-9 chichimow
+      .row
+        .col-3 14:00
+        .col-9 Magicianman
+      .row
+        .col-3 14:20
+        .col-9 やや節操ある子
+      .row
+        .col-3 15:00
+        .col-9 観葉植物はおけるだけおけ
+
+      %h2.mt-4.font-weight-bold Venue
+
+      %div 大久保 HOTSHOT
+      %a{ href: "http://homepage3.gourmet.coocan.jp/" } http://homepage3.gourmet.coocan.jp/
+
+      %h2.mt-4.font-weight-bold Place
+      %div.my-2
+        %a{ href: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.0027442928617!2d139.69538321487886!3d35.7015500801895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d2ef2bb1021%3A0x7439cd7f12fe5bd8!2z77yo77yv77y077yz77yo77yv77y0!5e0!3m2!1sja!2sjp!4v1551493305821",
+          target: "_blank" } 別ウィンドウで開く
+      %iframe{ src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.0027442928617!2d139.69538321487886!3d35.7015500801895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d2ef2bb1021%3A0x7439cd7f12fe5bd8!2z77yo77yv77y077yz77yo77yv77y0!5e0!3m2!1sja!2sjp!4v1551493305821",
+        width: "100%",
+        height: "300",
+        frameborder: "0",
+        style: "border:0",
+        allowfullscreen: true }
+
+      = Haml::Engine.new(File.read('lp/partials/footer.html.haml')).render
