@@ -22,6 +22,11 @@ body.aw-2019 {
   background: #EEE;
   color: #333;
 }
+body.aw-2022 .content-background {
+  background: linear-gradient(to bottom, #ffffff, #caefff);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 h2 {
   font-size: 1.3rem;
 }
